@@ -1,0 +1,7 @@
+Problem 2 — Add Two Numbers (Linked List)
+
+This algorithm adds two numbers represented by linked lists in reverse order.
+We iterate through both lists, summing corresponding digits and carrying over any overflow greater than 9.
+A dummy node simplifies the construction of the new linked list containing the result.
+If one list ends earlier, we continue with the remaining digits and carry.
+The solution runs in O(max(m, n)) time and uses O(1) extra space while efficiently building the output list.
