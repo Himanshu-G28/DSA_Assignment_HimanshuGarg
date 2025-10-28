@@ -1,0 +1,7 @@
+Problem 1 — Maximum Subarray (Array)
+
+This problem finds the contiguous subarray with the largest possible sum.
+We use Kadane’s Algorithm, which dynamically decides whether to continue the current subarray or start a new one at each element.
+Two variables — maxCurrent and maxGlobal — track the running and overall maximum sums.
+Whenever maxCurrent exceeds maxGlobal, we update the global maximum.
+This provides an elegant and efficient O(n) time and O(1) space solution suitable for large arrays.
